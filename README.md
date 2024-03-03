@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Shah Limon</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/ab91ee04-8226-404d-9fdf-b1f2a1af3c5d/sHSH38Is38.json" background="##FFFFFF" speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
+
 
 <img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 
