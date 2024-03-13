@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shah-limon&label=Profile%20views&color=0e75b6&style=flat" alt="shah-limon" /> </p>
 
-- 👨‍💻 All of my projects are available at [https://linktr.ee/simplified_learner](https://linktr.ee/simplified_learner)
+- 👨‍💻 All of my projects are available at [https://linktr.ee/simplified_learn2er](https://linktr.ee/simplified_learn2er)
 
 - ⚡ Fun fact **I am funny😅**
 
