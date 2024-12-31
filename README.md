@@ -23,10 +23,10 @@ const developer = {
     title: '🚀 MERN Stack Developer',
     slogan: '✨ Turning Ideas into Digital Reality',
     
-    base: {
+   base: {
         location: '🌏 Bangladesh',
         availability: '✅ Open to Exciting Projects',
-        portfolio: '🎨 [https://limon-portfolio.web.app](https://limon-portfolio.web.app/)',
+        portfolio: '🎨 https://limon-portfolio.web.app',
         experience: '⚡ 3+ Years of Web Crafting'
     },
     
