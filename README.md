@@ -19,27 +19,88 @@
 
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 
-```javascript
-const shahLimon = {
-    pronouns: "he" | "him",
-    location: "🇧🇩 Bangladesh",
-    code: ["JavaScript", "HTML", "CSS", "Python", "PHP"],
-    askMeAbout: ["web dev", "tech", "digital art"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Next.js"],
-            css: ["Tailwind", "Bootstrap", "SASS"]
-        },
-        backEnd: {
-            js: ["Node", "Express", "NestJS"],
-            databases: ["MongoDB", "MySQL"]
-        },
-        design: ["Figma", "Illustrator", "Photoshop"]
+const developer = {
+    name: '🧑‍💻 Shah Limon',
+    title: '⭐ Frontend Developer',
+    
+    base: {
+        location: '🇧🇩 Bangladesh',
+        pronouns: 'he/him',
+        portfolio: 'https://shahlimon.dev',
+        availability: '✅ Open to opportunities'
     },
-    currentFocus: "Building awesome web experiences",
-    funFact: "I debug with console.log and proud of it! 😅"
+    
+    skills: {
+        languages: [
+            '💻 JavaScript', 
+            '📱 HTML5', 
+            '🎨 CSS3',
+            '🐍 Python',
+            '🔮 PHP'
+        ],
+        
+        expertise: {
+            frontend: {
+                frameworks: ['⚛️ React', '🔲 Next.js'],
+                styling: ['🌊 Tailwind CSS', '🅱️ Bootstrap', '💅 SASS'],
+                tools: ['📦 Webpack', '🔧 Babel', '📱 Responsive Design']
+            },
+            
+            backend: {
+                runtime: '🟢 Node.js',
+                frameworks: ['🚂 Express.js', '🐱 NestJS'],
+                databases: {
+                    noSQL: '🍃 MongoDB',
+                    SQL: '🐬 MySQL'
+                }
+            },
+            
+            design: {
+                tools: ['✒️ Figma', '🎨 Illustrator', '🖼️ Photoshop'],
+                skills: ['🎯 UI/UX', '🎨 Wireframing', '🖌️ Prototyping']
+            }
+        }
+    },
+    
+    currentlyWorking: {
+        project: '🚀 E-commerce Platform',
+        learning: ['📱 React Native', '⚡ AWS'],
+        focus: '🎯 Building seamless user experiences'
+    },
+    
+    passions: [
+        '🌟 Clean Code',
+        '🎨 Creative Design',
+        '🤝 Team Collaboration',
+        '📚 Continuous Learning'
+    ],
+    
+    funFacts: [
+        '🐛 I debug with console.log and proud of it!',
+        '☕ Powered by coffee',
+        '🎮 Casual gamer',
+        '🌱 Always growing'
+    ],
+    
+    connect: {
+        github: '🐱 shah-limon',
+        twitter: '🐦 @limonshah1',
+        linkedin: '💼 shah-limon',
+        email: '📧 hello@shahlimon.dev'
+    },
+
+    getLifeBalance: () => {
+        return {
+            coding: '👨‍💻 60%',
+            learning: '📚 20%',
+            gaming: '🎮 10%',
+            coffee: '☕ 10%'
+        };
+    }
 };
-```
+
+// 🌟 Let's build something amazing together!
+console.log(`${developer.base.availability} - Feel free to reach out!`);
 
 <div align="center">
   
