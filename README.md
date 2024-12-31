@@ -22,77 +22,111 @@
 ```javascript
 const developer = {
     name: '🧑‍💻 Shah Limon',
-    title: '⭐ Frontend Developer',
+    title: '🚀 MERN Stack Developer',
+    slogan: '✨ Turning Ideas into Digital Reality',
     
     base: {
-        location: '🇧🇩 Bangladesh',
-        pronouns: 'he/him',
-        portfolio: 'https://shahlimon.dev',
-        availability: '✅ Open to opportunities'
+        location: '🌏 Bangladesh',
+        availability: '✅ Open to Exciting Projects',
+        portfolio: '🎨 https://shahlimon.dev',
+        experience: '⚡ 3+ Years of Web Crafting'
     },
     
-    skills: {
-        languages: [
-            '💻 JavaScript', 
-            '📱 HTML5', 
-            '🎨 CSS3',
-            '🐍 Python',
-            '🔮 PHP'
-        ],
-        
-        expertise: {
+    stackMastery: {
+        mern: {
             frontend: {
-                frameworks: ['⚛️ React', '🔲 Next.js'],
-                styling: ['🌊 Tailwind CSS', '🅱️ Bootstrap', '💅 SASS'],
-                tools: ['📦 Webpack', '🔧 Babel', '📱 Responsive Design']
+                core: '⚛️ React.js Master',
+                framework: '🔥 Next.js Explorer',
+                state: ['📊 Redux', '🔄 Context API', '⚡ Zustand'],
+                styling: ['🎨 Tailwind CSS Pro', '💅 Styled Components', '🎯 SCSS'],
             },
-            
             backend: {
-                runtime: '🟢 Node.js',
-                frameworks: ['🚂 Express.js', '🐱 NestJS'],
-                databases: {
-                    noSQL: '🍃 MongoDB',
-                    SQL: '🐬 MySQL'
-                }
-            },
-            
-            design: {
-                tools: ['✒️ Figma', '🎨 Illustrator', '🖼️ Photoshop'],
-                skills: ['🎯 UI/UX', '🎨 Wireframing', '🖌️ Prototyping']
+                core: '🚀 Node.js & Express.js',
+                database: '🍃 MongoDB Specialist',
+                apis: ['🔗 RESTful', '📡 GraphQL'],
+                auth: ['🔐 JWT', '🔑 OAuth2.0']
             }
+        },
+        
+        design: {
+            ui: ['✨ Modern Minimalism', '🎯 Micro-interactions'],
+            tools: ['🎨 Figma Master', '🖼️ Adobe Creative Suite'],
+            focus: ['📱 Mobile-First', '🌐 Responsive Design', '🎭 Animation']
         }
     },
     
-    currentlyWorking: {
-        project: '🚀 E-commerce Platform',
-        learning: ['📱 React Native', '⚡ AWS'],
-        focus: '🎯 Building seamless user experiences'
+    expertise: {
+        specialized: [
+            '🛡️ Authentication Systems',
+            '🔄 Real-time Applications',
+            '📊 Dashboard Development',
+            '🛒 E-commerce Solutions',
+            '🌐 Full-Stack Integration'
+        ],
+        tools: [
+            '🔧 Git/GitHub',
+            '📦 Webpack/Vite',
+            '🚀 Vercel/Netlify',
+            '☁️ AWS Services',
+            '🔍 Chrome DevTools'
+        ]
     },
     
-    passions: [
-        '🌟 Clean Code',
-        '🎨 Creative Design',
-        '🤝 Team Collaboration',
-        '📚 Continuous Learning'
-    ],
+    currentProjects: {
+        primary: {
+            name: '🏪 E-commerce Platform',
+            stack: 'MERN + Redux + Stripe',
+            status: '🚧 In Development'
+        },
+        learning: {
+            current: ['📱 React Native', '🎭 Framer Motion'],
+            upcoming: ['⚡ AWS Advanced', '🔥 Firebase']
+        }
+    },
+    
+    codePhilosophy: {
+        principles: [
+            '🎯 Clean & Maintainable Code',
+            '⚡ Performance Optimization',
+            '🔐 Security Best Practices',
+            '📱 Mobile-First Approach'
+        ],
+        methodology: [
+            '🔄 Agile Development',
+            '🧪 Test-Driven Development',
+            '🤝 Collaborative Coding',
+            '📚 Continuous Learning'
+        ]
+    },
     
     funFacts: [
-        '🐛 I debug with console.log and proud of it!',
-        '☕ Powered by coffee',
-        '🎮 Casual gamer',
-        '🌱 Always growing'
+        '🎮 Gaming fuels my creativity',
+        '☕ Code runs on coffee',
+        '🌙 Night mode enthusiast',
+        '🎵 Coding with lofi beats',
+        '🐛 Console.log debugger pro'
     ],
     
     connect: {
-        github: '🐱 shah-limon',
+        github: '🐱 github.com/shah-limon',
+        linkedin: '💼 linkedin.com/in/shah-limon',
         twitter: '🐦 @limonshah1',
-        linkedin: '💼 shah-limon',
         email: '📧 hello@shahlimon.dev'
+    },
+    
+    getStatus: () => {
+        return {
+            current: '🚀 Building amazing web experiences',
+            mode: '💻 Always in development mode',
+            coffee: '☕ Properly caffeinated',
+            bugs: '🐛 Currently squashing...'
+        };
     }
 };
 
-// 🌟 Profile loaded successfully!
-console.log(`${developer.base.availability} - Let's connect and collaborate!`);
+// 🌟 Initialize developer mode...
+console.log(`${developer.name} - ${developer.slogan}`);
+console.log('🚀 Ready to transform your ideas into reality!');
 ```
 
 <div align="center">
