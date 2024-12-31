@@ -194,4 +194,14 @@ console.log('🚀 Ready to transform your ideas into reality!');
 
 ![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
+### 📺 Latest YouTube Videos
+
+<!-- YOUTUBE:START -->
+<!-- This section will be automatically updated with your latest videos -->
+[![Web Development Tutorial](https://img.youtube.com/vi/VIDEO_ID_HERE/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+<!-- YOUTUBE:END -->
+
+➡️ [More Videos...](https://www.youtube.com/c/YOUR_CHANNEL_HERE)
+
+
 </div>
