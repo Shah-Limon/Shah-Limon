@@ -13,7 +13,7 @@
 
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=100&color=E3F0AF&width=435&lines=Welcome+to+my+Digital+Garden+🌱)](https://git.io/typing-svg)
+### 🌟 Welcome to my digital garden 🌱
 
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 
