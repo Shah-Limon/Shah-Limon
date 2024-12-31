@@ -19,7 +19,47 @@
 
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 
-```javascript
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            font-family: 'Consolas', 'Courier New', monospace;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        #code-container {
+            white-space: pre;
+            overflow-x: auto;
+        }
+        .comment { color: #6a9955; }
+        .string { color: #ce9178; }
+        .number { color: #b5cea8; }
+        .keyword { color: #569cd6; }
+        .property { color: #9cdcfe; }
+        .function { color: #dcdcaa; }
+        .typing-cursor {
+            display: inline-block;
+            width: 2px;
+            height: 1.2em;
+            background-color: #d4d4d4;
+            margin-left: 2px;
+            animation: blink 1s step-end infinite;
+        }
+        @keyframes blink {
+            50% { background-color: transparent; }
+        }
+    </style>
+</head>
+<body>
+    <div id="code-container"></div>
+    <script>
+        const code = `// 🚀 Initializing developer profile...
+// 🔄 Loading configuration...
+// ⚡ Starting profile generation...
+
 const developer = {
     name: '🧑‍💻 Shah Limon',
     title: '⭐ Frontend Developer',
@@ -100,9 +140,36 @@ const developer = {
     }
 };
 
-// 🌟 Let's build something amazing together!
-console.log(`${developer.base.availability} - Feel free to reach out!`);
-```
+// 🌟 Profile generation complete!
+// 📝 Running final checks...
+// ✨ Profile validated successfully!
+console.log(\`\${developer.base.availability} - Feel free to reach out!\`);
+
+// 🎉 Ready to connect and collaborate!`;
+
+        const container = document.getElementById('code-container');
+        let i = 0;
+        const cursor = document.createElement('span');
+        cursor.className = 'typing-cursor';
+        container.appendChild(cursor);
+
+        function typeCode() {
+            if (i < code.length) {
+                const char = code[i];
+                if (char === '\n') {
+                    container.insertBefore(document.createTextNode('\n'), cursor);
+                } else {
+                    container.insertBefore(document.createTextNode(char), cursor);
+                }
+                i++;
+                setTimeout(typeCode, Math.random() * 30 + 20);
+            }
+        }
+
+        typeCode();
+    </script>
+</body>
+</html>
 
 <div align="center">
   
