@@ -13,7 +13,7 @@
 
 </div>
 
-### 🌟 Welcome to my digital garden 🌱
+### 🌟 Welcome to my Digital Garden 🌱
 
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 
