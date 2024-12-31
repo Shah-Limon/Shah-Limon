@@ -26,7 +26,7 @@ const developer = {
     base: {
         location: '🌏 Bangladesh',
         availability: '✅ Open to Exciting Projects',
-        portfolio: '🎨 https://shahlimon.dev',
+        portfolio: '🎨 [https://limon-portfolio.web.app](https://limon-portfolio.web.app/)',
         experience: '⚡ 3+ Years of Web Crafting'
     },
     
@@ -109,7 +109,8 @@ const developer = {
         github: '🐱 github.com/shah-limon',
         linkedin: '💼 linkedin.com/in/shah-limon',
         twitter: '🐦 @limonshah1',
-        email: '📧 hello@shahlimon.dev'
+        email: '📧 shahlimon@yahoo.com',
+portfolio: 'https://limon-portfolio.web.app'
     },
     
     getStatus: () => {
