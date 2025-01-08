@@ -194,7 +194,7 @@ console.log('🚀 Ready to transform your ideas into reality!');
 
 ![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
-### 📺 Latest YouTube Videos
+### 📺 Latest Projects YouTube Videos
 
 <!-- YOUTUBE:START -->
 - [Premium Vector Wide Shield Icon Collection](https://www.youtube.com/watch?v=8NkzRoHjA9I)
