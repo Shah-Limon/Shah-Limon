@@ -1,75 +1,17 @@
-# name: Latest YouTube Videos
-# on:
-#   schedule:
-#     # Runs every day end
-#     - cron: '0 0 * * *'
-#   workflow_dispatch:
-
-# jobs:
-#   update-readme-with-youtube:
-#     name: Update this repo's README with latest videos from YouTube
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - uses: gautamkrishnar/blog-post-workflow@master
-#         with:
-#           comment_tag_name: "YOUTUBE"
-#           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCX7HYec740QGcLGqEcKxBxw"
-
-name: Update Latest YouTube Videos
-
+name: Latest YouTube Videos
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
+    # Runs every day end
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readme-with-youtube:
+    name: Update this repo's README with latest videos from YouTube
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Fetch Latest Videos
-        uses: gautamkrishnar/blog-post-workflow@master
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
+          comment_tag_name: "YOUTUBE"
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCX7HYec740QGcLGqEcKxBxw"
-
-      - name: Generate YouTube Video Grid
-        id: generate-grid
-        run: |
-          videos=$(jq -r '.items[:3] | map({title, url, videoId}) | @json' blog-post-workflow-output.json)
-          echo "Fetched Videos: $videos"
-          cat <<EOF > grid.md
-## 📺 Latest YouTube Videos
-
-<table>
-  <tr>
-EOF
-          echo "$videos" | jq -c '.[]' | while read -r video; do
-            title=$(echo "$video" | jq -r '.title')
-            url=$(echo "$video" | jq -r '.url')
-            videoId=$(echo "$video" | jq -r '.videoId')
-            cat <<EOF >> grid.md
-    <td>
-      <a href="$url">
-        <img src="https://img.youtube.com/vi/$videoId/hqdefault.jpg" alt="$title" width="300">
-      </a>
-      <br/>
-      <a href="$url">$title</a>
-    </td>
-EOF
-          done
-          cat <<EOF >> grid.md
-  </tr>
-</table>
-EOF
-
-      - name: Update README
-        run: |
-          mv grid.md README.md
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Updated Latest YouTube Videos in README"
-          git push
