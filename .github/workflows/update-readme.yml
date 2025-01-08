@@ -1,27 +1,17 @@
-name: Update Latest YouTube Videos
-
+name: Latest YouTube Videos
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
+    # Runs every day end
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  update-readme-with-youtube:
+    name: Update this repo's README with latest videos from YouTube
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Fetch Latest YouTube Videos
-        uses: gautamkrishnar/blog-post-workflow@v1.6.0
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
         with:
+          comment_tag_name: "YOUTUBE"
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCX7HYec740QGcLGqEcKxBxw"
-
-      - name: Push Changes
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add README.md
-          git commit -m "Updated Latest YouTube Videos in README"
-          git push
