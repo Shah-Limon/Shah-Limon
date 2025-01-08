@@ -9,21 +9,20 @@
 ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚══════╝╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7D768&width=435&lines=Frontend+Developer+from+Bangladesh;Building+awesome+web+experiences;Creating+pixel-perfect+interfaces)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7D768&width=435&lines=MERN+Stack+Developer+from+Bangladesh;Building+awesome+web+experiences;Creating+pixel-perfect+interfaces)](https://git.io/typing-svg)
 
 </div>
 
 ### 🌟 Welcome to my Digital Garden 🌱
+<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 <br/>
 <p>
-
 - 🌱 I’m currently learning Flutter
 - 💬 Ask me about React, NodeJs, Express
 - 📫 How to reach me: [@Linkedin](https://www.linkedin.com/in/shah-nur-islam-limon/)
-
 </p>
 
-<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
+
 
 ```javascript
 const developer = {
