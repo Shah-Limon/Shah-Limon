@@ -14,7 +14,7 @@
 </div>
 
 ### 🌟 Welcome to my Digital Garden 🌱
-<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
+
 <br/>
 <p>
 
@@ -24,7 +24,7 @@
 - 📫 How to reach me: [@Linkedin](https://www.linkedin.com/in/shah-nur-islam-limon/)
 </p>
 
-
+<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 
 ```javascript
 const developer = {
