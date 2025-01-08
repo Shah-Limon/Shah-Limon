@@ -14,6 +14,14 @@
 </div>
 
 ### 🌟 Welcome to my Digital Garden 🌱
+<br/>
+<p>
+
+- 🌱 I’m currently learning Flutter
+- 💬 Ask me about React, NodeJs, Express
+- 📫 How to reach me: [@Linkedin](https://www.linkedin.com/in/shah-nur-islam-limon/)
+
+</p>
 
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> **About me...**
 
@@ -194,15 +202,11 @@ console.log('🚀 Ready to transform your ideas into reality!');
 
 ![Snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
 
-### 📺 Latest Projects YouTube Videos
-
-<!-- YOUTUBE:START -->
-- [Premium Vector Wide Shield Icon Collection](https://www.youtube.com/watch?v=8NkzRoHjA9I)
-<!-- YOUTUBE:END -->
-
-➡️ [More Videos...](https://www.youtube.com/@shahlimon1961)
+### 📺 Latest Projects Videos
 
 <!-- BEGIN YOUTUBE-CARDS -->
 [![Premium Vector Wide Shield Icon Collection](https://ytcards.demolab.com/?id=8NkzRoHjA9I&title=Premium+Vector+Wide+Shield+Icon+Collection&lang=en&timestamp=1736318316&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Premium Vector Wide Shield Icon Collection")](https://www.youtube.com/watch?v=8NkzRoHjA9I)
 <!-- END YOUTUBE-CARDS -->
+<br/>
+➡️ [More Videos...](https://www.youtube.com/@shahlimon1961)
 </div>
