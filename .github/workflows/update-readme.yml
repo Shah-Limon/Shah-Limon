@@ -56,7 +56,7 @@ jobs:
     steps:
       - uses: DenverCoder1/github-readme-youtube-cards@main
         with:
-          channel_id: UCipSxT7a3rn81vGLw9lqRkg
+          channel_id: UCX7HYec740QGcLGqEcKxBxw
           lang: en
           comment_tag_name: YOUTUBE-CARDS
           youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }} # Configured in Actions Secrets (see Wiki)
