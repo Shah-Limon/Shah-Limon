@@ -35,5 +35,5 @@ jobs:
       - name: Update this repo's README with recent YT activity
         uses: DenverCoder1/github-readme-youtube-cards@main
         with:
-          channel_id: UChvYTafHRgXKb0VbYGeG0nw
+          channel_id: UCX7HYec740QGcLGqEcKxBxw
           max_videos: 9
