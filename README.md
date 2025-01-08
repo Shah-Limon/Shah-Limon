@@ -197,7 +197,7 @@ console.log('🚀 Ready to transform your ideas into reality!');
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-<!-- This section will be automatically updated with your latest videos -->
+- [Premium Vector Wide Shield Icon Collection](https://www.youtube.com/watch?v=8NkzRoHjA9I)
 <!-- YOUTUBE:END -->
 
 ➡️ [More Videos...](https://www.youtube.com/@shahlimon1961)
